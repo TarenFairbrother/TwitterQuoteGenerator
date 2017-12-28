@@ -6,13 +6,33 @@
 
 #top{
 
+    margin-top:100px;
     height:150px;
     
 }
 
 #getquote{
 
-    margin-left:853px;
+    margin-left:780px;
+    margin-top:20px;
+
+}
+
+#middle {
+
+    margin-top: 200px;
+
+}
+
+#bottom{
+
+    height:100px;
+
+}
+
+#bottom h1{
+
+    margin-right:50px;
     margin-top:20px;
 
 }

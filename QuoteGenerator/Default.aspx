@@ -39,9 +39,16 @@
 
         <section id="middle">
 
-            <p id="quote"></p>
-            <p id="quoteauthor"></p>
+            <h3 class ="text-center" id="quote"></h3>
+            <h2 class="text-center" id="quoteauthor"></h2>
         
+        </section>
+
+        <section id="bottom" class="fixed-bottom bg-dark align-bottom">
+
+            <h1 class="text-right text-light">By Taren Fairbrother</h1>
+
+
         </section>
 
 
@@ -73,9 +80,9 @@
                             success: function (response) {
                                 quote = response.quoteText;
                                 author = response.quoteAuthor;
-                                $('#quote').text(quote);
+                                $('#quote').text('" ' +quote + ' "');
                                 if (author) {
-                                    $('#quoteauthor').text('said by ' + author);
+                                    $('#quoteauthor').text('Quote by ' + author);
                                 }
                                 else {
                                     $('#author').text('-- unknown');
